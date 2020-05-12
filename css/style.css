@@ -14,7 +14,7 @@
 :root {
   --primary-white-color: #ffffff;
   --secondary-background-color: #f5f4fa;
-  --background-domains-title: rgba(47, 48, 58, 0.8);
+  --background-areas-title: rgba(47, 48, 58, 0.8);
   --footer-background-color: #2f303a;
   --background-behind-layout: #e5e5e5;
   --logo-black-color: #000000;
@@ -101,6 +101,7 @@ body {
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 /* Button */
@@ -143,16 +144,18 @@ body {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+  text-transform: uppercase;
 }
 
 /* Areas */
 .areas-title {
   color: var(--primary-white-color);
-  background-color: var(--background-domains-title);
+  background-color: var(--background-areas-title);
 
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+  text-transform: uppercase;
 }
 
 /* Team */
@@ -215,6 +218,7 @@ body {
 
   font-weight: 700;
   line-height: 1.14;
+  text-transform: uppercase;
 }
 
 .footer-copyright {
